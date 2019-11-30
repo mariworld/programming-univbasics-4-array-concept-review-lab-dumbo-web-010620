@@ -1,3 +1,7 @@
+#method find_element_index
+#arg -> array, value_to_find (user input)
+#
+#return -> index of value_to_find
 def find_element_index(array, value_to_find)
   counter = 0
   while array[counter] do
