@@ -2,6 +2,7 @@
 #arg -> array, value_to_find (user input)
 #
 #return -> index of value_to_find
+#we have to see if this value is in the array with include?
 def find_element_index(array, value_to_find)
   counter = 0
   while array[counter] do
