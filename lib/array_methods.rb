@@ -1,13 +1,14 @@
 #method find_element_index
 #arg -> array, value_to_find (user input)
 #
-#return -> index of value_to_find
+#return -> index of value_to_find 
+#its going to find a value and return that index
 
 def find_element_index(array, value_to_find)
   counter = 0
   while array[counter] do
-    puts array[value_to_find]
     counter += 1
+    
   end
 end
 
